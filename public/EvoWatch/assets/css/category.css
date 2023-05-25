@@ -1,0 +1,35 @@
+.category-sidebar {
+    border-right: 1px solid #f2f2f2;
+    padding     : 0 12px;
+}
+
+.category-sidebar-title {
+    font-weight: 600;
+    font-size  : 16px;
+    margin-top : 16px;
+    display    : block;
+}
+
+.category-sidebar-item {
+    display: block;
+}
+
+.category-sidebar-link {
+    display: block;
+}
+
+.category-products {
+    padding: 0 12px;
+}
+
+.category-product-image--hover {
+    display: none;
+}
+
+.category-products-aside {
+    margin: 16px 0 16px 40px;
+}
+
+.category-product-aside-chkb {
+    margin: 0 4px 0 20px;
+}

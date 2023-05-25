@@ -1,0 +1,18 @@
+.blog{
+    margin: 0 200px;
+}
+
+.blog-post_thumbnail{
+    width: 100%;
+}
+
+.blog-post_title{
+    padding: 10px;
+}
+
+.blog-post_paragraph{
+    line-height: 20px;
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 13px;
+}

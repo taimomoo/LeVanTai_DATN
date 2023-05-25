@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/fonts/FA5PRO-master/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;700&display=swap"
+          rel="stylesheet" />
+    <link rel="icon" href="./assets/img/icon_logo.jpg" type="image/x-icon" />
+    <title>Trang chủ</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="grid wide">
+          <div class="header__top">
+            <div class="header__logo">
+              <a href="" class="header__logo--link">
+                <img src="./assets/img/logo.jpg" alt="logo" class="header__logo-top">
+              </a>
+
+
+            </div>
+
+            <div class="header__form_search">
+              <input type="text" class="header__form_search-input" placeholder="Tìm sản phẩm">
+
+              <button class="header__form_search-btn">
+                <img src="./assets/img/icon__search.png" alt="search" class="header__form_search-icon">
+                <!-- <span class="header__form-search-text c-0">Tìm kiếm</span> -->
+              </button>
+
+              <ul class="header__form-search--history">
+
+                <a href="" class="header__form_search--history-link">
+                  <img src="./assets/img/icon__history-search.png" alt="" class="icon-history">
+                  <span class="header__form-search--history-text">Rolex</span>
+                  <img src="./assets/img/icon__delete.png" alt="Xóa" class="header__form_search--history-delete_icon">
+                </a>
+
+                <a href="" class="header__form_search--history-link">
+                  <img src="./assets/img/icon__history-search.png" alt="" class="icon-history">
+                  <span class="header__form-search--history-text">Fearless</span>
+                  <img src="./assets/img/icon__delete.png" alt="Xóa" class="header__form_search--history-delete_icon">
+                </a>
+
+                <a href="" class="header__form_search--history-link">
+                  <img src="./assets/img/icon__history-search.png" alt="" class="icon-history">
+                  <span class="header__form-search--history-text">L'Duchen Silver</span>
+                  <img src="./assets/img/icon__delete.png" alt="Xóa" class="header__form_search--history-delete_icon">
+                </a>
+
+              </ul>
+
+            </div>
+
+            <div class="header__user">
+
+              <div class="header__user-info c-0">
+                <img src="./assets/img/user_avatar.jpg" alt="avatar" class="header__user-avatar">
+                <span class="header__user-item">
+                  <span class="header__user-lable">Tài khoản</span>
+                  <span class="header__user-acount-label">
+                    <a class="header__user-acount-link" href="login.html">Đăng nhập/Đăng ký</a>
+                    <i class="header__user-icon fa-solid fa-caret-down"></i>
+                  </span>
+                </span>
+
+                <ul class="header__user-info-menu">
+                  <li class="header__user-info-item">
+                    <a href="" class="header__user-info--link">
+                      Thoát tài khoản
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+
+              <div class="header__user-cart">
+                <a href="Cart.html" class="header__user-cart--link">
+                  <div class="header__usert-cart-item">
+                    <div class="header__user-cart-wrapper">
+                      <img src="./assets/img/icon__cart.png" alt="icon__cart" class="header__user-cart-img">
+                      <span class="header__user-cart-quantity">1</span>
+                    </div>
+                    <a href="cart.html" class="header__user-cart-text">Giỏ hàng</a>
+                  </div>
+
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="header__bot">
+            <div class="grid wide">
+              <div class="header-nav c-0">
+                <ul class="header-nav-menu d-flex-v">
+                  <li class="header-nav-item">
+                    <a href="index.html" class="header-nav-link">Trang chủ</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a href="" class="header-nav-link">Giới thiệu</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a href="category.html" class="header-nav-link">Nam</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a href="category.html" class="header-nav-link">Nữ</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a href="category.html" class="header-nav-link">Sản phẩm</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a href="blogs.html" class="header-nav-link">Tin tức</a>
+                  </li>
+                  <li class="header-nav-item">
+                    <a href="about.html" class="header-nav-link">Liên hệ</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </header>
+
+      <main class="loginForm">
+        <div class="grid wide row">
+          <form action="">
+            <span class="loginForm-title d-block text-center">Đăng kí</span>
+            <div class="loginForm-userInfor userInforRow">
+              <div class="loginForm-userInfor-lastName">
+                <label for="txtUserLastName">Tên</label>
+                <input type="text" name="lastName" id="txtUserLastName" class="d-block form-input">
+              </div>
+              <div class="loginForm-userInfor-firstName">
+                <label for="txtUserFirstName">Họ</label>
+                <input type="text" name="firstName" id="txtUserFirstName" class="d-block form-input">
+              </div>
+            </div>
+
+            <div class="userInforRow">
+              <label for="txtUserEmail" class="d-block">Email</label>
+              <input type="email" name="userEmail" id="txtUserEmail" class="d-block form-input">
+            </div>
+
+            <div class="userInforRow">
+              <label for="txtUserPass" class="d-block">Mật khẩu</label>
+              <input type="password" name="userPass" id="txtUserPass" class="d-block form-input">
+            </div>
+
+            <div class="userInforRow btn-wrapper d-flex-h">
+              <input type="submit" value="Đăng nhập" class="d-flex-v btn form-input btn-login">
+            </div>
+            <p class="loginForm-check d-block text-center">
+              Bạn đã có tài khoản? Đăng nhập
+              <a href="login.html" class="loginForm-link link-color">tại đây</a>
+            </p>
+          </form>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="grid wide">
+          <span class="footer-copyright d-flex-h">&copy;Bản quyền thuộc về </span>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+</html>

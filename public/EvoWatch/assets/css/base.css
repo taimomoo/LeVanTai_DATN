@@ -1,0 +1,66 @@
+:root {
+    --text-color : #1c1c1c;
+    --black-color: #000;
+    --white-color: #fff;
+    --price-color: #e21414;
+}
+
+.link-color {
+    color: #1879d7;
+}
+
+.d-flex-v {
+    display    : flex;
+    align-items: center;
+}
+
+.d-flex-h {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    color: #333;
+    background-color: #f0f8ff;
+    padding         : 12px;
+    /* border-radius   : 6px; */
+    position        : relative;
+    display         : inline-block;
+    outline: 2px solid #333;
+}
+
+.btn:hover {
+    /* background-color: #555; */
+
+}
+
+.btn-addToCart {
+    /* border     : 2px solid var(--black-color); */
+    font-weight: 600;
+    background-color: var(--white-color);
+}
+
+.title {
+    border-top    : 2px solid var(--black-color);
+    border-bottom : 2px solid var(--black-color);
+    margin        : 16px 0;
+    font-weight   : 400;
+    width         : 550px;
+    text-transform: uppercase;
+    font-size     : 20px;
+    font-weight   : 500;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex-col {
+    display       : flex;
+    flex-direction: column;
+}

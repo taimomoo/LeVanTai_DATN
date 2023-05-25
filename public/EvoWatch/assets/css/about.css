@@ -1,0 +1,87 @@
+.about__slider {
+    background         : url(../img/barner_about.jpg);
+    height             : 240px;
+    width              : 100%;
+    background-size    : cover;
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.content__form {
+    width        : 80%;
+    min-height   : 100px;
+    padding      : 12px 34px;
+    margin       : 0 auto;
+    text-align   : center;
+    background   : #fff;
+    border-radius: 2px;
+    align-self   : center;
+    box-shadow   : 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+
+.content__form .heading {
+    font-size: 2rem;
+}
+
+.content__form .desc {
+    text-align : center;
+    color      : #636d77;
+    font-size  : 1.6rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    margin-top : 16px;
+    font-weight: 300;
+}
+
+.form-group {
+    display       : flex;
+    margin-bottom : 16px;
+    flex-direction: column;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight   : 700;
+    padding-bottom: 6px;
+    line-height   : 1.8rem;
+    font-size     : 1.4rem;
+}
+
+.form-control {
+    height       : 40px;
+    padding      : 8px 12px;
+    border       : 2px solid #edf1f7;
+    border-radius: 3px;
+    outline      : none;
+    font-size    : 1.4rem;
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-submit {
+    outline         : none;
+    background-color: #1dbfaf;
+    margin-top      : 12px;
+    padding         : 12px 16px;
+    font-weight     : 600;
+    color           : #fff;
+    border          : none;
+    width           : 100%;
+    font-size       : 14px;
+    border-radius   : 8px;
+    cursor          : pointer;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.spacer {
+    margin-top: 36px;
+}
